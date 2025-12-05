@@ -34,3 +34,7 @@ export interface MoviesProps {
   titleText: TitleText;
   releaseYear: ReleaseYear;
 }
+
+interface MProps {
+  movies: MoviesProps[];
+}
